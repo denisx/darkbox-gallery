@@ -1,0 +1,38 @@
+.darkbox .l
+, .darkbox .r
+{
+	cursor: pointer;
+	height: 32px;
+	left: 50%;
+	/*margin-left: -300px;*/
+	position: absolute;
+	top: 50%;
+	width: 32px;
+	z-index: 1;
+	background: url('../i/lr.png') no-repeat 0 0;
+	opacity: 0.5;
+}
+
+.darkbox .r {
+	background-position: 0 -32px;
+}
+
+.darkbox .l:hover
+, .darkbox .r:hover
+{
+	opacity: 1;
+}
+
+.hidden {
+	display: none !important;
+}
+.end {
+	display: none;
+}
+
+.darkbox .misc {
+	position: absolute;
+	/*bottom: -1.5em;*/
+	width: 100%;
+	color: #888;
+}
