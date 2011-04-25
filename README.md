@@ -1,7 +1,7 @@
 # Darkbox
 Simple but powerful jQuery plugin for viewing images
 
-Demo: [pepelsbey.github.com/darkbox](http://denisx.github.com/darkbox-gallery/)
+Demo: [denisx.github.com/darkbox-gallery](http://denisx.github.com/darkbox-gallery/)
 
 ## Supported Browsers
 

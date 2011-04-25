@@ -1,1 +1,73 @@
-My GitHub PAge
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+<title>Darkbox</title>
+<meta charset="UTF-8">
+<style>
+BODY {
+margin:0;
+padding:40px 50px;
+height:1500px;
+background:#FFF;
+color:#666;
+font:13px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+H1 {
+margin:0 0 10px;
+line-height:1;
+}
+P {
+margin:0 0 10px;
+}
+A {
+text-decoration:none;
+color:#069;
+}
+.gallery {
+overflow:hidden;
+}
+.gallery A {
+float:left;
+margin:0 25px 25px 0;
+text-decoration:none;
+}
+.gallery IMG {
+display:block;
+margin:0 0 15px;
+border:none;
+}
+P {
+font-size:11px;
+}
+</style>
+<link rel="stylesheet" href="jquery.darkbox.css">
+<!--[if lt IE 9]><link rel="stylesheet" href="jquery.darkbox.ie.css"><![endif]-->
+<link rel="stylesheet" href="css/jquery.darkbox.gallery.css">
+</head>
+<body>
+<h1>Darkbox Gallery</h1>
+<p><a href="https://github.com/pepelsbey/darkbox">Original Darkbox GitHub</a> (photo viewer only)</p>
+<p><a href="https://github.com/denisx/darkbox-gallery">Darkbox Gallery GitHub</a></p>
+<div class="gallery">
+<a href="i-static/soda.jpg" rel="darkbox">
+<img src="i-static/soda.thumb.jpg" alt="Soda" title="Soda">
+800 ? 500
+</a>
+<a href="i-static/chevy.jpg" rel="darkbox">
+<img src="i-static/chevy.thumb.jpg" alt="Chevy" title="Chevy">
+1920???1200
+</a>
+<a href="i-static/BROKEN" rel="darkbox">
+<img src="i-static/fall.thumb.jpg" alt="Fall" title="Fall">
+Broken
+</a>
+</div>
+<p>Photos by John Carey © <a href="http://fiftyfootshadows.net/">fiftyfootshadows.net</a></p>
+<script src="j/jquery.js"></script>
+<script src="jquery.darkbox.min.js"></script>
+<script src="js/jquery.darkbox.gallery.js"></script>
+<script>
+$( 'a[rel=darkbox]' ).darkbox().darkboxgallery();
+</script>
+</body>
+</html>
