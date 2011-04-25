@@ -1,3 +1,9 @@
+/**
+ * @author Denis Khripkov (denisx@denisx.ru, http://denisx.ru/)
+ * @version 0.1 (01.02.2011)
+ * @ requires jQuery
+ * @ requires DarkBox
+ */
 ( function ( $ ) {
 
 	$.fn.darkboxgallery = function () {
