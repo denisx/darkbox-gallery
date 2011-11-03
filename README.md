@@ -1,4 +1,6 @@
 # Darkbox
+Gallery wrapper for the Darkbox viewing plugin.
+
 Simple but powerful jQuery plugin for viewing images
 
 Demo: [denisx.github.com/darkbox-gallery](http://denisx.github.com/darkbox-gallery/)
