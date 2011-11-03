@@ -66,10 +66,10 @@
 			can_work = false;
 			var w = $( '.darkbox-canvas img', root ).width();
 			l.css({
-				marginLeft: -(w/2 +40) + 'px'
+				marginLeft: -(w/2 + 15) + 'px'
 			});
 			r.css({
-				marginLeft: (w/2+5 ) + 'px'
+				marginLeft: (w/2 - 15) + 'px'
 			});
 			fu_l( false );
 			fu_r( false );
@@ -83,7 +83,7 @@
 			if ( that.prev().length )
 			{
 				img_l = new Image();
-				img_r.onload = function(){
+				img_l.onload = function(){
 					load_img('l');
 				};
 				img_l.src = that.prev().children( 'img' ).attr( 'src' );
